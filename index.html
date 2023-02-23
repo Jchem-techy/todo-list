@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>todo-list</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Todo list</h1>
+        <form class="searching">
+          <input
+            type="text"
+            name="search"
+            placeholder="search todos"
+            class="search"
+          />
+        </form>
+      </header>
+
+      <ul class="todos">
+        <li>
+          <span>play Mariokart </span>
+          <h4 class="delete">X</h4>
+        </li>
+        <li>
+          <span>defeat ganon in zelda </span>
+          <h4 class="delete">X</h4>
+        </li>
+        <li>
+          <span>make a vegie pie </span>
+          <h4 class="delete">X</h4>
+        </li>
+      </ul>
+      <section>
+        <form class="add">
+          <h2>Add a new todo</h2>
+          <input type="text" name="add" placeholder="add new todos" />
+        </form>
+      </section>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

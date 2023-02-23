@@ -1,0 +1,72 @@
+body {
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #33315b;
+  color: white;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  width: 400px;
+  margin: 2rem auto;
+}
+input[type='text'] {
+  background-color: #29284a;
+  border: none;
+  display: block;
+  margin: 1rem auto;
+  width: 60%;
+  padding: 0.5rem;
+  font: inherit;
+}
+input[type='text']:focus {
+  border: none;
+  color: white;
+  outline: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin: 0 auto;
+}
+.delete {
+  cursor: pointer;
+  margin-right: 1rem;
+  color: rgb(255, 0, 0);
+  border: 1px solid red;
+  padding: 2px;
+  /* transition: 10s; */
+}
+span {
+  margin-left: 1rem;
+}
+
+li {
+  margin-left: 1rem;
+  margin: 2px 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #413d70;
+}
+input[name='add'] {
+  background-color: #29284a;
+  border: none;
+  display: block;
+  margin: 1rem auto;
+  width: 60%;
+  padding: 0.5rem;
+  font: inherit;
+}
+h2 {
+  text-align: center;
+}
+input[name='add']:focus {
+  color: white;
+  outline: none;
+}
+/* .filtered {
+  display: none !important;
+} */
